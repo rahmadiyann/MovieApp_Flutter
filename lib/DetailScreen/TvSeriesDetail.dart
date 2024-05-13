@@ -9,7 +9,6 @@ import '../RepeatedFunction/TrailerUI.dart';
 import '../RepeatedFunction/favoriateandshare.dart';
 import '../RepeatedFunction/repttext.dart';
 import 'package:r08fullmovieapp/apikey/apikey.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class TvSeriesDetails extends StatefulWidget {

@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/gestures.dart';
 import 'package:r08fullmovieapp/RepeatedFunction/sliderlist.dart';
 import 'package:r08fullmovieapp/apikey/apikey.dart';
 import 'package:flutter/material.dart';
@@ -8,12 +7,7 @@ import 'package:r08fullmovieapp/HomePage/HomePage.dart';
 import '../RepeatedFunction/TrailerUI.dart';
 import '../RepeatedFunction/favoriateandshare.dart';
 import '../RepeatedFunction/repttext.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'dart:convert';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:r08fullmovieapp/SqfLitelocalstorage/NoteDbHelper.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../RepeatedFunction/reviewui.dart';
 
@@ -182,7 +176,7 @@ class _MovieDetailsState extends State<MovieDetails> {
                               ]);
                               Navigator.pop(context);
                             },
-                            icon: Icon(FontAwesomeIcons.circleArrowLeft),
+                            icon: Icon(Icons.arrow_back_ios),
                             iconSize: 28,
                             color: Colors.white),
                         actions: [
@@ -194,7 +188,7 @@ class _MovieDetailsState extends State<MovieDetails> {
                                         builder: (context) => MyHomePage()),
                                     (route) => false);
                               },
-                              icon: Icon(FontAwesomeIcons.houseUser),
+                              icon: Icon(Icons.home),
                               iconSize: 25,
                               color: Colors.white)
                         ],
